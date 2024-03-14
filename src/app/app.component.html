@@ -1,6 +1,10 @@
 <!-- The AG Grid component -->
-<ag-grid-angular
-  [columnDefs]="colDefs"
-  [rowData]="rowData" class="ag-theme-quartz"
-  style="height: 500px;">
-</ag-grid-angular>
+<div class="d-flex flex-column">
+  <button class="btn btn-primary align-self-center" type="button">Primary</button>
+  <ag-grid-angular
+    [columnDefs]="colDefs"
+    [rowData]="rowData" class="ag-theme-quartz"
+    style="height: 500px;">
+  </ag-grid-angular>
+</div>
+
