@@ -1,0 +1,5 @@
+<div class="d-flex flex-column h-100">
+  <button (click)="queryRefresh()" class="btn btn-primary m-2 align-self-center" type="button">Refresh from DB</button>
+  <ag-grid-angular (gridReady)="onGridReady($event)" [columnDefs]="colDefs" class="ag-theme-quartz flex-grow-1">
+  </ag-grid-angular>
+</div>

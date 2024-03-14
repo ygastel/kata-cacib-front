@@ -1,9 +1,7 @@
 <!-- The AG Grid component -->
 <div class="d-flex flex-column vh-100">
   <app-send-to-queue class="m-2 align-self-start"></app-send-to-queue>
-  <ag-grid-angular
-    [columnDefs]="colDefs"
-    [rowData]="rowData" class="ag-theme-quartz flex-grow-1">
-  </ag-grid-angular>
+  <hr class="bg-danger border-2 border-top border-info"/>
+  <app-message-grid class="flex-grow-1"></app-message-grid>
 </div>
 
