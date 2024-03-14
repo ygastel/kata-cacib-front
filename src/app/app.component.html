@@ -1,10 +1,9 @@
 <!-- The AG Grid component -->
-<div class="d-flex flex-column">
-  <button class="btn btn-primary align-self-center" type="button">Primary</button>
+<div class="d-flex flex-column vh-100">
+  <app-send-to-queue class="m-2 align-self-start"></app-send-to-queue>
   <ag-grid-angular
     [columnDefs]="colDefs"
-    [rowData]="rowData" class="ag-theme-quartz"
-    style="height: 500px;">
+    [rowData]="rowData" class="ag-theme-quartz flex-grow-1">
   </ag-grid-angular>
 </div>
 
