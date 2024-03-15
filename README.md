@@ -8,7 +8,6 @@ Have node 20 and angular 17 cli installed
 
 ## Run fronted
 
-- Run `npm install` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Run `npm install` for a dev server.
 - Run `npm run start` command
 - Go to http://localhost:4200/
-- 
